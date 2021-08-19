@@ -1,0 +1,418 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+}
+#logo-1 {
+height: 100%;
+width: 120px;
+}
+#try-free {
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    font-weight: 400;
+    background-color: white;
+    position: relative;
+    bottom: 5px;
+    font-size: 13px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+padding: 30px 20px 100px 20px;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+padding: 0px 20px 30px 20px;
+color: hsl(192, 100%, 9%);
+line-height: 1.5;
+}
+#mockup {
+    height: 100%;
+    width: 330px;
+    padding-bottom: 100px;
+}
+.icons {
+    height: 100%;
+    width: 250px;
+}
+.main-text1 {
+    color: hsl(192, 100%, 9%);
+line-height: 1.5;
+padding: 0px 20px 30px 20px;
+}
+#get-started {
+    padding: 13px 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: 2px 2px 10px 1px lightgray;
+    margin-bottom: 60px;
+}
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+padding: 15px 0px;
+color: hsl(192, 100%, 9%); 
+}
+.stat-icon {
+    position: relative;
+    right: 55px;
+    padding: 10px 0px;
+    width: 30px;
+    height: 25px;
+}
+.stat-text {
+    color: hsl(193, 11%, 41%);
+    padding-bottom: 80px;
+}
+.panel1 {
+background-image: url(images/bg-section-top-mobile-1.svg);
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: contain;
+}
+.grow {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: hsl(207, 100%, 98%);
+}
+.main-text2 {
+    color: hsl(192, 100%, 9%);
+line-height: 1.5;
+padding: 0px 20px 30px 20px;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+padding: 60px 0px 30px 0px;
+color: hsl(192, 100%, 9%); 
+}
+#get-started-free {
+        padding: 13px 40px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        font-weight: 600;
+        background-color: hsl(322, 100%, 66%);
+        box-shadow: 2px 2px 10px 1px lightgray;
+        margin-bottom: 60px;
+}
+#ready-to-build {
+    padding: 40px 70px;
+    line-height: 1.5;
+}
+.flow {
+    padding-bottom: 100px;
+    background-image: url(images/bg-section-bottom-mobile-1.svg), url(images/bg-section-top-mobile-2.svg) ;
+    background-repeat: no-repeat, no-repeat ;
+    background-size: contain, contain ;
+    background-position: top, bottom ;
+}
+#flow-icon {
+    padding-top: 200px;
+}
+.main-text3 {
+    color: hsl(192, 100%, 9%);
+    line-height: 1.5;
+    padding: 0px 20px 150px 20px; 
+}
+#user-icon {
+    padding-top: 100px;
+}
+.users {
+    background-color: hsl(207, 100%, 98%);
+    padding-bottom: 80px;
+}
+.build {
+    background-image: url(images/bg-section-bottom-mobile-2.svg), url(images/bg-footer-top-mobile.svg) ;
+    background-repeat: no-repeat, no-repeat ;
+    background-size: contain, contain ;
+    background-position: top, bottom;
+    padding: 180px 0px;
+}
+footer {
+    background-color: hsl(192, 100%, 9%);
+    text-align: left;
+    color: white;
+    padding: 10px 30px 30px 30px;
+}
+#news {
+    color: white;
+    font-family:'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+.main-text4 {
+    line-height: 2;
+    padding: 0px 10px 30px 0px;
+}
+#subscribe {
+    background-color:  hsl(322, 100%, 66%);
+    color: white;
+    padding: 15px 35px;
+    border: 1px solid  hsl(322, 100%, 66%);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.email-input {
+    border-radius: 5px;
+    padding: 17px 60px;
+    border: none;
+    margin-bottom: 15px;
+}
+input[type="email"] {
+    width: 180px;
+}
+.form {
+    text-align: right;
+    padding-right: 15px;
+    padding-bottom: 90px;
+}
+#logo-2 {
+    height: 100%;
+    width: 200px;
+}
+.main-text5 {
+    line-height: 2;
+    padding: 25px 10px 30px 0px;
+}
+.contact {
+    padding: 5px 0px 20px 0px;
+}
+
+span {
+    padding-left: 15px;
+}
+@media (min-width: 1200px) {
+    footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 100px;
+    }
+
+    .footer2 {
+        order: 1;
+    }
+    .news {
+        order: 2;
+        padding-left: 200px;
+    }
+#logo-2 {
+    height: 40px;
+    width: 270px;
+}
+.main-text5 {
+    width: 70%;
+}
+#news {
+    padding: 20px 0px 25px 0px;
+    font-size: 20px;
+}
+.main-text4 {
+    width: 65%;
+}
+.form {
+    text-align: left;
+    padding-right: 15px;
+    padding-bottom: 90px;
+}
+#subscribe {
+    margin-left: 10px;
+}
+.build {
+    background-image: url(images/bg-section-bottom-desktop-2.svg), url(images/bg-footer-top-desktop.svg) ;
+    background-repeat: no-repeat, no-repeat ;
+    background-size: contain, contain ;
+    background-position: top, bottom;
+    padding: 250px 0px;
+}
+#ready-to-build {
+    font-size: 30px;
+}
+.users {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 150px;
+}
+.user-img {
+    order: 2;
+}
+.user-text {
+    order: 1;
+    text-align: left;
+    padding-top: 60px;
+}
+.icons {
+    height: 100%;
+    width: 500px;
+}
+.main-text2 {
+    padding: 0px;
+    width: 78%;
+}
+h2 {
+    font-size: 30px;
+}
+#user-icon {
+    padding-top: 0px;
+}
+.flow {
+    padding-bottom: 100px;
+    background-image: url(images/bg-section-bottom-desktop-1.svg), url(images/bg-section-top-desktop-2.svg) ;
+    background-repeat: no-repeat, no-repeat ;
+    background-size: contain, contain ;
+    background-position: top, bottom ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 250px 150px;   
+}
+.flow-img {
+    order: 1;
+    text-align: left;
+    padding-top: 60px;
+}
+.flow-text {
+    order: 2;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 130px;
+}
+#flow-icon {
+    padding-top: 0px;
+}
+.main-text3 {
+    padding-left: 0px;
+}
+.panel1 {
+    background-image: url(images/bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    padding-bottom: 150px;
+    }
+    .grow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 100px 150px;   
+    }
+    .grow-img {
+        order: 2;
+    }
+    .grow-text {
+        order: 1;
+        text-align: left;
+        padding-top: 60px;   
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .main-text1 {
+        padding: 0px 490px;
+    }
+    #mockup {
+        height: 100%;
+        width: 1000px;
+        order: 2;
+    }
+    .main-text1 {
+        padding-bottom: 40px;
+    }
+    #get-started {
+order: 1;
+margin-bottom: 70px;
+padding: 13px 50px;
+    }
+    .stats {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .stat1 {
+        padding: 10px 200px;
+    }
+    .stat2 {
+        padding: 10px 200px;  
+    }
+    .stat-icon {
+        width: 50px;
+        height: 40px;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+    padding: 30px 40px 100px 40px;
+    }
+    #logo-1 {
+        height: 100%;
+        width: 200px;
+        }
+     #try-free {
+            padding: 7px 18px;
+            position: relative;
+            bottom: 0px;
+            font-size: 15px;
+        }
+        .mockup-area {
+            text-align: center;
+        }
+}
